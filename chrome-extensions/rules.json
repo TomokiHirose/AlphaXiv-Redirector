@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": { "scheme": "https", "host": "alphaxiv.org" }
+      }
+    },
+    "condition": {
+      "urlFilter": "|https://arxiv.org/*",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
