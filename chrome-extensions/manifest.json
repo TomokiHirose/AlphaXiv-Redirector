@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "AlphaXiv Redirector",
-  "version": "1.0",
+  "version": "0.0.1",
   "description": "Redirects arXiv URLs to AlphaXiv and allows toggling the functionality.",
   "permissions": [
     "storage",
@@ -12,9 +12,6 @@
   ],
   "background": {
     "service_worker": "src/background.js"
-  },
-  "action": {
-    "default_popup": "popup.html"
   },
   "declarative_net_request": {
     "rule_resources": [{
